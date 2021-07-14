@@ -187,6 +187,168 @@ margin: 0px 15px 33px 15px ;
     width: 100%;
     height: auto;
 }
-
-
 /* section two style end */
+
+/* section three strat */
+.best-team{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.best-team-text{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.best-team-text h1{
+    color:black;
+    width: 469px;
+    height: 120px;
+    padding-left: 30px;
+    
+    font-style: 700;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.best-team-img{
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.best-team-img img{
+    width: 80%;
+    height: 80%;
+}
+/* section three end */
+/* section four start */
+.media-partner img{
+    padding: auto;
+    margin-left: 25%;
+}
+/* section four end */
+
+/* footer style start */
+
+footer{
+    margin-top: 158px;
+}
+.footer-img{
+    display: flex;;
+    flex-direction: column;
+     align-items: center;
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+.footer-img p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 63px;
+}
+#social-icons img{
+    width: 32px;
+    height: 32px;
+}
+#social-icons{
+  margin: 20px;
+}
+/* footer style end */
+/* media queries start */
+@media only screen and (min-width:300px) and (max-width:687px){
+
+    header{
+        background-color:#2D25A0;
+    }
+    main{
+        
+      width: 360px;
+      margin-left: 10px;
+    }
+    .banner-text {
+        
+        margin-top:0px
+    }
+    .banner-full{
+        display: block;
+    }
+    .section-one{
+        
+        justify-content: center;
+    }
+
+    .players{
+        
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .side-by-side{
+        display: grid;
+        margin: 0;
+        width: 360px;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+    header > .banner-full:hover > .banner-img {
+        transform: scale(0.5);
+        
+    }
+    .banner-img{
+        
+        width: 360px;
+
+    }
+    .banner-img img{
+        
+        width: 360px;
+    }
+    
+   nav{
+       display: none;
+   }
+   .blog h1{
+    color:black;
+    
+    
+    font-style: 700;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 60px;
+}
+#title{
+    color: #FFFF;
+   height: 100px;
+    margin-bottom: 12px;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    }
+ 
+    .footer-img img{
+        width: 383px;
+        height: 110px;
+    }
+    
+    .footer-img p{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 63px;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+/* media queries end */
